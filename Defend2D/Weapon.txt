@@ -1,0 +1,96 @@
+;#######################################################
+;   
+; Waffendatei von leod
+; (c) 2005                                                    
+;
+;#######################################################
+;
+AK-74          	;Name der Waffe
+15             	;Power der Waffe (100 Power = sofortiger tot)
+38             	;Bewegungsgeschwindigkeit
+200            	;Delay in ms zwischen den Schüssen
+30             	;Munition pro Magazin
+800           	;Delay in ms bei Magazinwechsel
+ak74.png       	;Minibild
+colt_s.wav     	;Schusssound
+0              	;PlayerFrame
+5		;Wieviel die Waffe streut
+;#######################################################
+AK-47
+25
+30
+250
+30
+700
+ak47.png
+ak47_s.wav
+0
+7
+;#######################################################
+m4		;Mini-Sniper		
+50		;Zieht die hälfte der Energie ab
+30
+700
+30		
+3000            ;Lange Nachlade zeit
+m4.png
+ak47_s.wav
+0
+1
+;#######################################################
+Colt
+40
+40
+500
+8
+1000
+colt.png
+colt_s.wav
+0
+2
+;#######################################################
+MG		;Game-Modifiziert: Lauf-Stopp
+25
+40
+170
+200
+1300
+ak74.png
+ak47_s.wav
+3
+15
+;#######################################################
+Scout		;Snipergewehr
+100
+60
+1000
+10
+5000            ;Sehr lange Nachladezeit
+ak74.png
+rifle1.wav
+2
+0
+;#######################################################
+;Ende Schusswaffen!
+Bomb		;Game-Modifiziert: Legen & Explosion
+100
+100
+1000
+100
+10000
+bombe.png
+reload.wav
+0
+0
+;#######################################################
+Grenade		;Game-Modifiziert: Werfen & Explosion
+80
+100
+1000
+100
+10000
+granate.png
+reload.wav
+1		;2.Frame: Granate in der Hand
+0
+;#######################################################
